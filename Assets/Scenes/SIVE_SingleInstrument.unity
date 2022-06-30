@@ -1350,7 +1350,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0060000066, y: 0.026000006, z: 0.10999997}
+  m_Size: {x: 0.0060000066, y: 0.04600001, z: 0.10999997}
   m_Center: {x: -0.00000011920929, y: 0, z: -0.000000059604645}
 --- !u!1001 &519352330
 PrefabInstance:
@@ -1625,7 +1625,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.015262039, y: 0.021343157, z: 0.7758887}
+  m_Size: {x: 0.015262039, y: 0.05, z: 0.7758887}
   m_Center: {x: 0, y: 0.047035128, z: -0.0120099485}
 --- !u!114 &614282243
 MonoBehaviour:
@@ -2426,7 +2426,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0060000066, y: 0.026000006, z: 0.10999997}
+  m_Size: {x: 0.0060000066, y: 0.04600001, z: 0.10999997}
   m_Center: {x: -0.00000011920929, y: 0, z: -0.000000059604645}
 --- !u!1001 &1133626309
 PrefabInstance:
@@ -2924,7 +2924,7 @@ PrefabInstance:
     - target: {fileID: 785982709505707726, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: LastUngrabbed.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1402947976}
     - target: {fileID: 785982709505707726, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: FirstGrabbed.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -4781,7 +4781,7 @@ PrefabInstance:
     - target: {fileID: 785982709505707726, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: LastUngrabbed.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1402947976}
     - target: {fileID: 785982709505707726, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: FirstGrabbed.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
