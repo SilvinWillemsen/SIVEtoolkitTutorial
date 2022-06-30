@@ -15,6 +15,18 @@ public class InstrumentReferenceList : MonoBehaviour
         foreach (Transform child in transform)
         {
             instruments.Add(child.gameObject);
+
+            foreach (Transform instrumentChild in child.transform)
+            {
+                if (instrumentChild.tag == "Instrument")
+                {
+                    instrumentChild.GetChild(0).gameObject.AddComponent<AnimationCallBack>();
+
+                    instrumentStartPos.Add(instrumentChild.gameObject.transform.localPosition);
+                    instrumentStartOrientation.Add(instrumentChild.gameObject.transform.localRotation);
+                }
+            }
         }
     }
+
 }
