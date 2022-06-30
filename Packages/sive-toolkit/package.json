@@ -1,0 +1,33 @@
+{
+  "name": "com.aau-cph.sive-toolkit",
+  "version": "0.0.1",
+  "displayName": "SIVE Toolkit",
+  "description": "This is the Sonic Interactions in Virtual Environments (SIVE) Toolkit.\n This package can be used to create virtual musical instruments in VR. \nThe sound engine is imported as an audio plugin which synthesizes sound using physical models. A tutorial on the usage of this package can be found at:",
+  "unity": "2020.3",
+  "unityRelease": "27f1",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "dependencies": {
+    "io.extendreality.tilia.camerarigs.spatialsimulator.unity": "2.0.10",
+    "io.extendreality.tilia.camerarigs.trackedalias.unity": "2.0.4",
+    "io.extendreality.tilia.camerarigs.xrpluginframework.unity": "2.0.4",
+    "io.extendreality.tilia.input.unityinputsystem": "2.0.4",
+    "io.extendreality.tilia.interactions.interactables.unity": "2.6.0",
+    "io.extendreality.tilia.interactions.pointerinteractors.unity": "2.1.18",
+    "com.unity.xr.management": "4.2.1",
+    "com.unity.xr.oculus": "1.11.2",
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "keywords": [
+    "sive",
+    "physical modeling",
+    "musical instruments"
+  ],
+  "author": {
+    "name": "Silvin Willemsen",
+    "email": "silvinwillemsen@gmail.com",
+    "url": ""
+  },
+  "type": "tool"
+}
