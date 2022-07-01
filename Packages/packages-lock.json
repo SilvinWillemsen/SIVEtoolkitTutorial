@@ -1,21 +1,5 @@
 {
   "dependencies": {
-    "com.aau-cph.sive-toolkit": {
-      "version": "file:sive-toolkit",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "io.extendreality.tilia.camerarigs.spatialsimulator.unity": "2.0.10",
-        "io.extendreality.tilia.camerarigs.trackedalias.unity": "2.0.4",
-        "io.extendreality.tilia.camerarigs.xrpluginframework.unity": "2.0.4",
-        "io.extendreality.tilia.input.unityinputsystem": "2.0.4",
-        "io.extendreality.tilia.interactions.interactables.unity": "2.6.0",
-        "io.extendreality.tilia.interactions.pointerinteractors.unity": "2.1.18",
-        "com.unity.xr.management": "4.2.1",
-        "com.unity.xr.oculus": "1.11.2",
-        "com.unity.textmeshpro": "3.0.6"
-      }
-    },
     "com.unity.collab-proxy": {
       "version": "1.15.7",
       "depth": 0,
