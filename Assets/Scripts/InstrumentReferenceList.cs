@@ -20,7 +20,7 @@ public class InstrumentReferenceList : MonoBehaviour
             {
                 if (instrumentChild.tag == "Instrument")
                 {
-                    instrumentChild.GetChild(0).gameObject.AddComponent<AnimationCallBack>();
+                    // instrumentChild.GetChild(0).gameObject.AddComponent<AnimationCallBack>();
 
                     instrumentStartPos.Add(instrumentChild.gameObject.transform.localPosition);
                     instrumentStartOrientation.Add(instrumentChild.gameObject.transform.localRotation);

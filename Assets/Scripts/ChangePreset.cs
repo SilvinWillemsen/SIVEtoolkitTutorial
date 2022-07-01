@@ -9,8 +9,6 @@ using UnityEngine.Audio;
 public class ChangePreset : MonoBehaviour
 {   
     private int presetToLoad;
-
-    public Text debugText;
     // DebugTextScript debugTextScript;
     int numPresets;
     public int currentlyActivePreset;
@@ -51,8 +49,6 @@ public class ChangePreset : MonoBehaviour
 
             audioMixer.SetFloat ("loadPreset", 1.0f);
             string presetName = Marshal.PtrToStringAuto (getPresetAt(currentlyActivePreset));
-            debugText.GetComponent<DebugTextScript>().setDebugText ("Loaded " + presetName);
-
         }
     }
         

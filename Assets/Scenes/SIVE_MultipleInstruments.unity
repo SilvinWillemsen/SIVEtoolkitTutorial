@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4430107, g: 0.49220192, b: 0.5719304, a: 1}
+  m_IndirectSpecularColor: {r: 0.44301036, g: 0.4922015, b: 0.5719296, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5864,7 +5864,7 @@ MonoBehaviour:
   SimulatorLeftGrip: {fileID: 1760047133}
   SimulatorRightGrip: {fileID: 1760047132}
   instrumentDisplays: {fileID: 155421588}
-  exciters: {fileID: 0}
+  exciters: {fileID: 741763286}
 --- !u!4 &1985598798
 Transform:
   m_ObjectHideFlags: 0
@@ -6142,7 +6142,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 75e976a9a62c686479fd603a6ceaf293, type: 2}
+  - {fileID: 2100000, guid: 227ec9baef97d9244afbac333b1ff4ff, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
