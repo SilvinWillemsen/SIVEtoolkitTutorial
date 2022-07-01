@@ -461,8 +461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32f9979abf8824c7fa03300f4cea5192, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instrumentDisplays: {fileID: 0}
-  exciters: {fileID: 1402947975}
 --- !u!1 &122588086
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,7 +527,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 785982709505707726, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: grabType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 785982709505707726, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: FirstGrabbed.m_PersistentCalls.m_Calls.Array.size
@@ -1117,7 +1115,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3425589306487620505, guid: c83d63619306b0845a841dd3cc213a70, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3908322436372368397, guid: c83d63619306b0845a841dd3cc213a70, type: 3}
       propertyPath: m_Enabled
@@ -1699,7 +1697,7 @@ PrefabInstance:
     - target: {fileID: 5839046843648530548, guid: f8e0d2a59209d854b91b04b5db7df9ca, type: 3}
       propertyPath: grabAction
       value: 
-      objectReference: {fileID: 994220513}
+      objectReference: {fileID: 1760047133}
     - target: {fileID: 5839046843648530548, guid: f8e0d2a59209d854b91b04b5db7df9ca, type: 3}
       propertyPath: velocityTracker
       value: 
@@ -1993,6 +1991,101 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa6b2e26d85a4f740b961ef57e412d92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &917142603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 917142604}
+  - component: {fileID: 917142607}
+  - component: {fileID: 917142606}
+  - component: {fileID: 917142605}
+  m_Layer: 0
+  m_Name: ExciterArea
+  m_TagString: ExciterArea
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &917142604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917142603}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.004949999, y: 0, z: 0}
+  m_LocalScale: {x: 0.010000002, y: 0.0050000004, z: 0.009999999}
+  m_Children: []
+  m_Father: {fileID: 2049494334}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &917142605
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917142603}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &917142606
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917142603}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &917142607
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917142603}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &964217131
 GameObject:
   m_ObjectHideFlags: 0
@@ -2437,7 +2530,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 785982709505707726, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: grabType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 785982709505707726, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: validInteractionTypes
@@ -2891,7 +2984,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 785982709505707726, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: grabType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 785982709505707726, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: FirstGrabbed.m_PersistentCalls.m_Calls.Array.size
@@ -3265,8 +3358,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32f9979abf8824c7fa03300f4cea5192, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instrumentDisplays: {fileID: 0}
-  exciters: {fileID: 1402947975}
 --- !u!1001 &1266303702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3568,7 +3659,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 785982709505707726, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: grabType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 785982709505707726, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: Ungrabbed.m_PersistentCalls.m_Calls.Array.size
@@ -4168,7 +4259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2764921037832162238, guid: 0b5f198c853b9794680bf089e64daf28, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2764921037832162239, guid: 0b5f198c853b9794680bf089e64daf28, type: 3}
       propertyPath: m_RootOrder
@@ -4375,7 +4466,7 @@ PrefabInstance:
     - target: {fileID: 5839046843648530548, guid: f8e0d2a59209d854b91b04b5db7df9ca, type: 3}
       propertyPath: grabAction
       value: 
-      objectReference: {fileID: 994220512}
+      objectReference: {fileID: 1760047132}
     - target: {fileID: 5839046843648530548, guid: f8e0d2a59209d854b91b04b5db7df9ca, type: 3}
       propertyPath: velocityTracker
       value: 
@@ -4467,7 +4558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad59f78779f178146834982094182e4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xrSetup: 0
+  xrSetup: 1
   TrackedAliasObj: {fileID: 2091847353}
   OculusCameraRig: {fileID: 205411198}
   SimulatorCameraRig: {fileID: 1760047134}
@@ -4748,7 +4839,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 785982709505707726, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: grabType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 785982709505707726, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: FirstGrabbed.m_PersistentCalls.m_Calls.Array.size
@@ -5835,60 +5926,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1001 &8754921171319125309
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2049494334}
-    m_Modifications:
-    - target: {fileID: 4215510042070905113, guid: 8862714393770db4391d50d5b5c254a6, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4215510042070905113, guid: 8862714393770db4391d50d5b5c254a6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4215510042070905113, guid: 8862714393770db4391d50d5b5c254a6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4215510042070905113, guid: 8862714393770db4391d50d5b5c254a6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4215510042070905113, guid: 8862714393770db4391d50d5b5c254a6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4215510042070905113, guid: 8862714393770db4391d50d5b5c254a6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4215510042070905113, guid: 8862714393770db4391d50d5b5c254a6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4215510042070905113, guid: 8862714393770db4391d50d5b5c254a6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4215510042070905113, guid: 8862714393770db4391d50d5b5c254a6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4215510042070905113, guid: 8862714393770db4391d50d5b5c254a6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4215510042070905113, guid: 8862714393770db4391d50d5b5c254a6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5171533306151074949, guid: 8862714393770db4391d50d5b5c254a6, type: 3}
-      propertyPath: m_Name
-      value: 'ExciterArea (Missing Prefab with guid: 32dd8bc3c860e6f40af3fc882358022e)'
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8862714393770db4391d50d5b5c254a6, type: 3}
